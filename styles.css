@@ -44,7 +44,6 @@ header {
     align-items: center;
     justify-content: space-around;
     gap: .5em;
-
 }
 
 hgroup {
@@ -55,6 +54,7 @@ hgroup {
 footer {
     background-color: #0E91A1;
     color: #FFFFFF;
+    padding: 1em 1em;
 }
 
 section {
@@ -77,7 +77,7 @@ section {
 .content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 7em;
 }
 
 .content-image {
@@ -119,10 +119,15 @@ section {
 #contact ul {
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
 }
 
 #contact li strong {
     display: block;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    padding-bottom: 1em;
 }
 
 #logo {
