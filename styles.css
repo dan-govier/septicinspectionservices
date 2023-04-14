@@ -11,7 +11,7 @@ aside {
 
 body {
     font-family: 'Montserrat';
-    font-size: 22px;
+    font-size: 18px;
     padding: 0;
     margin: 0;
     line-height: 1.4em;
@@ -30,6 +30,7 @@ h2 {
     letter-spacing: 4px;
     text-align: center;
     padding: .5em 0 .6em;
+    display: block;
 }
 
 h3 {
@@ -107,6 +108,7 @@ section {
 #services-image {
     margin-right: 1em;
     float: left;
+    padding: 2em 2em;
 }
 
 #contact {
@@ -114,7 +116,14 @@ section {
     color: #FFFFFF;
 }
 
+#contact ul {
+    display: flex;
+    justify-content: space-around;
+}
 
+#contact li strong {
+    display: block;
+}
 
 #logo {
     height: 100px;
