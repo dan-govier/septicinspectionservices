@@ -1,8 +1,20 @@
+aside {
+    /* float: left; */
+    /* width: 20%; */
+    background-color: #0E91A1;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2em;
+    padding: 1em;
+    line-height: 1.6em;
+}
+
 body {
     font-family: 'Montserrat';
     font-size: 22px;
     padding: 0;
     margin: 0;
+    line-height: 1.4em;
 }
 
 h1 {
@@ -17,6 +29,7 @@ h2 {
     font-size: 48px;
     letter-spacing: 4px;
     text-align: center;
+    padding: .5em 0 .6em;
 }
 
 h3 {
@@ -66,6 +79,11 @@ section {
     padding: 0 1em;
 }
 
+.content-image {
+    width: calc(120px + 30vw);
+    margin-bottom: .5em;
+}
+
 .hero {
     overflow: hidden;
     position: relative;
@@ -82,11 +100,13 @@ section {
 }
 
 #about-image {
-
-    width: calc(120px + 30vw);
-    float: right;
     margin-left: 1em;
-    margin-bottom: .5em;
+    float: right;
+}
+
+#services-image {
+    margin-right: 1em;
+    float: left;
 }
 
 #contact {
