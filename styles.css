@@ -139,3 +139,15 @@ section {
     float: left;
     padding: .25em .25em;
 }
+
+
+/* Begin mobile phone */
+@media only screen and (max-width: 768px) {   
+
+    body {
+        display: block;
+        
+        font-size: 14px;
+    
+    }
+}
