@@ -52,7 +52,7 @@ hgroup {
 }
 
 footer {
-    background-color: #0E91A1;
+    background-color: #146C78;
     color: #FFFFFF;
     padding: 1em 1em;
 }
@@ -112,8 +112,9 @@ section {
 }
 
 #contact {
-    background-color: #146C78;
+    background-color: #0E91A1;
     color: #FFFFFF;
+    padding-top: 0px;
 }
 
 #contact ul {
