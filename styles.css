@@ -1,3 +1,11 @@
+a {
+    color: #0E91A1;
+}
+
+a:visited {
+    color: #146C78;
+}
+
 aside {
     /* float: left; */
     /* width: 20%; */
@@ -11,7 +19,7 @@ aside {
 
 body {
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     line-height: 1.4em;
@@ -46,6 +54,14 @@ header {
     gap: .5em;
 }
 
+header a {
+    display: block;
+}
+
+header img {
+    padding: 1em;
+}
+
 hgroup {
     text-align: center;
     font-family: 'Playfair Display';
@@ -72,6 +88,10 @@ section {
     display: inline-block;
     flex: 0 0 max-content;
     margin-right: .5em;
+}
+
+.button:visited {
+    color: #FFFFFF;
 }
 
 .content {
@@ -128,6 +148,15 @@ section {
 #form-button {
     font-size: 32px;
     padding: .66em;
+    color: #FFFFFF;
+}
+
+#header-links {
+    text-align: center;
+}
+
+#header-links a {
+    margin-bottom: 1em;
 }
 
 #logo {
@@ -144,10 +173,35 @@ section {
 /* Begin mobile phone */
 @media only screen and (max-width: 768px) {   
 
+    
+
     body {
+
+        /* For testing purposes */
+        /* background-color: green; */
+        width: 100%;
         display: block;
-        
         font-size: 14px;
     
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    img {
+        display: block;
+    }
+
+    .content {
+        padding: 0 1em;
+    }
+
+    #about-image {
+        float: none;
+    }
+
+    #call-button {
+        margin: 0 auto;
     }
 }
