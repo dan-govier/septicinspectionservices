@@ -9,13 +9,12 @@ a:visited {
 }
 
 aside {
-    /* float: left; */
-    /* width: 20%; */
+    text-align: center;
     background-color: #0E91A1;
     color: white;
     font-weight: 800;
     font-size: 1.2em;
-    padding: 1em;
+    padding: 1em 1.8em;
     line-height: 1.6em;
 }
 
@@ -29,6 +28,9 @@ body {
 
 h1 {
     text-transform: uppercase;
+    margin-top: 0em;
+    margin-bottom: .1em;
+    line-height: 1.2em;
 }
 
 h2 {
@@ -47,6 +49,7 @@ h3 {
     font-family: 'Playfair Display';
     color: #146C78;
     letter-spacing: 2px;
+    margin-top: .1em;
 }
 
 header {
@@ -123,7 +126,6 @@ section {
 }
 
 #about-image {
-    margin-left: 1em;
     float: right;
 }
 
@@ -203,8 +205,23 @@ section {
         flex-direction: column;
     }
 
+    header img {
+        padding-bottom: 0;
+    }
+
     img {
         display: block;
+        margin: 0 auto 1em;
+        max-width: max-content;
+    }
+
+    ul {
+        flex-direction: column;
+        
+    }
+
+    li {
+        margin: 1em auto .5em;
     }
 
     .content {
