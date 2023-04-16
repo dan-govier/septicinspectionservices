@@ -9,7 +9,6 @@ a:visited {
 }
 
 aside {
-    text-align: center;
     background-color: #0E91A1;
     color: white;
     font-weight: 800;
@@ -81,6 +80,10 @@ footer {
 section {
     clear: both;
     padding: 1em 0;
+}
+
+ul {
+    padding-left: 0;
 }
 
 .button {
@@ -212,12 +215,11 @@ section {
     img {
         display: block;
         margin: 0 auto 1em;
-        max-width: max-content;
+
     }
 
     ul {
         flex-direction: column;
-        
     }
 
     li {
