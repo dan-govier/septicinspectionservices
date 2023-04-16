@@ -1,5 +1,7 @@
 a {
+    text-decoration: none;
     color: #0E91A1;
+    font-weight: bold;
 }
 
 a:visited {
@@ -129,6 +131,11 @@ section {
     background-color: #0E91A1;
     color: #FFFFFF;
     padding-top: 0px;
+}
+
+#contact a {
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 #contact ul {
