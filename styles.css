@@ -130,6 +130,7 @@ ul {
 
 #about-image {
     float: right;
+    padding: 1em;
 }
 
 #contact {
@@ -230,11 +231,19 @@ ul {
         padding: 0 1em;
     }
 
+    .content-image {
+        width: 80%;
+    }
+
     #about-image {
-        float: none;
+        float: none;    
     }
 
     #call-button {
         margin: 0 auto;
+    }
+
+    #services-image {
+        float: none;
     }
 }
