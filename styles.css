@@ -154,6 +154,7 @@ ul {
 #contact li strong {
     display: block;
     font-family: 'Playfair Display';
+    letter-spacing: 3px;
     font-size: 1.75em;
     padding-bottom: 1em;
 }
