@@ -194,7 +194,9 @@ ul {
 /* Begin mobile phone */
 @media only screen and (max-width: 768px) {   
 
-    
+    aside {
+        margin: 1em;
+    }
 
     body {
 
