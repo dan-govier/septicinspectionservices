@@ -20,6 +20,7 @@ aside {
 body {
     font-family: 'Montserrat';
     font-size: 1.5vw;
+    font-size: min(1.5vw, 32px);
     padding: 0;
     margin: 0;
     line-height: 1.4em;

@@ -34,7 +34,14 @@
         </header>
         <main>
             <div class="hero">
-                <img src="images/cristina-gottardi-lake-cabin.jpg" alt="forest cabin on lake">
+                <picture>
+                    <source media="(max-width:400px)" srcset="images/cristina-gottardi-lake-cabin-small.webp 1x, images/cristina-gottardi-lake-cabin-medium.webp 2x">
+                    <source media="(max-width:400px)" srcset="images/cristina-gottardi-lake-cabin-small.jpeg 1x, images/cristina-gottardi-lake-cabin-medium.jpeg 2x">
+                    <source media="(max-width:800px)" srcset="images/cristina-gottardi-lake-cabin-medium.webp 1x, images/cristina-gottardi-lake-cabin-large.webp 2x">
+                    <source media="(max-width:800px)" srcset="images/cristina-gottardi-lake-cabin-medium.jpeg 1x, images/cristina-gottardi-lake-cabin-large.jpeg 2x">
+                    <source srcset="images/cristina-gottardi-lake-cabin-large.webp">
+                    <img src="images/cristina-gottardi-lake-cabin-large.jpeg" alt="forest cabin on lake" ">
+                  </picture>
             </div>
         
             <section id="about">
