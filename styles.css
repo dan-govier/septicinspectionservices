@@ -20,10 +20,10 @@ aside {
 body {
     font-family: 'Montserrat';
     font-size: 1.5vw;
-    font-size: min(1.5vw, 32px);
+    font-size: min(1.8vw, 24px);
     padding: 0;
     margin: 0;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
 
 h1 {
@@ -57,6 +57,7 @@ header {
     align-items: center;
     justify-content: space-around;
     gap: .5em;
+    margin-top: 1em;
 }
 
 header a {
@@ -132,6 +133,7 @@ ul {
 #about-image {
     float: right;
     padding: 1em;
+    max-width: 600px;
 }
 
 #contact {
@@ -143,6 +145,7 @@ ul {
 #contact a {
     font-weight: bold;
     color: #FFFFFF;
+    word-break: break-word;
 }
 
 #contact ul {
@@ -205,8 +208,7 @@ ul {
         /* background-color: green; */
         width: 100%;
         display: block;
-        font-size: 14px;
-    
+        font-size: 18px;    
     }
 
     header {
